@@ -348,11 +348,53 @@ video {
     width: 100%;
 }
 
-@media only screen and (min-width:768) {
+@media only screen and (min-width:768px) {
     .img-banner {
         display: block;
         width: 100%;
         padding-bottom: 30px;
     }
 
+    .wrap2 {
+        width: 600px;
+        margin: 0px auto;
+    }
+
+    .info h2 {
+        padding: 20px 0 0;
+    }
+
+    .info p {
+        padding: 20px 0px 0px;
+    }
+
+    .img-me {
+        padding-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width:1000px) {
+    .wrap2 {
+        width: 1000px;
+    }
+
+    .info {
+        width: 50%;
+        float: right;
+    }
+
+    .info h2 {
+        padding: 20px 0 0 30px;
+    }
+
+    .info p {
+        padding: 20px 0 0 30px;
+    }
+
+    .img-me {
+        padding-top: 0;
+        width: 50%;
+        float: left;
+    }
 }
