@@ -17,6 +17,8 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
+
+
 html,
 body,
 div,
@@ -326,6 +328,7 @@ video {
 
 .info {
     width: 100%;
+    display: flex;
 }
 
 .info h2 {
