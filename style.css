@@ -1,6 +1,10 @@
 @font-face {
     src: url(fonts/JosefinSans-Regular.ttf);
+    src: url(fonts/Catamaran-Regular.ttf);
+    src: url(fonts/CormorantGaramond-Regular.ttf);
+    font-family: catamaran;
     font-family: jose-regular;
+    font-family: CormorantGaramond;
     /* src: url(fonts/JosefinSans-Italic.ttf);
     font-family: jose-italic;
     src: url(fonts/JosefinSans-Thin.ttf);
@@ -207,9 +211,9 @@ select {
     color: chartreuse;
     background-color: rgb(0, 0, 0);
 } */
-body {
+/* body {
     background-color: #eee;
-}
+} */
 
 
 div h2 {
@@ -283,9 +287,9 @@ div h2 {
     background-color: #fff;
 }
 
-main {
+/* main {
     padding-top: 100px;
-}
+} */
 
 .wrapper {
     width: 1000px;
@@ -336,7 +340,7 @@ video {
 
 .info {
     width: 100%;
-    display: flex;
+
 }
 
 .info h2 {
@@ -408,4 +412,92 @@ video {
         width: 50%;
         float: left;
     }
+}
+
+/* My Website Code */
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-name {
+    /* text-decoration: none; */
+    font-family: catamaran;
+    font-weight: 900;
+    font-size: 24px;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    float: left;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: catamaran;
+    /* font-weight: 900; */
+    font-size: 16px;
+    color: #111;
+}
+
+header .header-case {
+    display: none;
+}
+
+.banner-header {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url(img/IMG_2277_web.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-header h1 {
+    font-family: catamaran;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.banner-header h2 {
+    font-family: CormorantGaramond;
+    font-weight: 100;
+    font-size: 28px;
+    font-style: italic;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 40px;
 }
