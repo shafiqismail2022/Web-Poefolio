@@ -419,9 +419,9 @@ a {
     text-decoration: none;
 }
 
-body {
+/* body {
     background-color: #f3f3f3;
-}
+} */
 
 header {
     background-color: #fff;
@@ -493,11 +493,76 @@ header .header-case {
 
 .banner-header h2 {
     font-family: CormorantGaramond;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 28px;
     font-style: italic;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 8px #111;
     line-height: 40px;
+}
+
+.index-topic01 {
+    margin: 16px 16px 0;
+    width: calc(100%-32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.index-links div {
+    margin: 16px 16px 0;
+    width: calc(100%-32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+    font-family: catamaran;
+    font-weight: 600;
+    font-size: 28px;
+    color: #111;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 20px;
+    width: calc(100%-80px);
+    padding: 40px 40px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: catamaran;
+    /* font-weight: 900; */
+    font-size: 24px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-linksDemo {
+    display: none;
+}
+
+.footer-socialMedia {
+    width: 50px;
+    float: right;
+}
+
+.footer-socialMedia img {
+    width: 100%;
+    margin-bottom: 10px;
 }
