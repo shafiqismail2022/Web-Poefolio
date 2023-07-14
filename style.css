@@ -550,7 +550,7 @@ footer ul li a {
     /* font-weight: 900; */
     font-size: 24px;
     color: #fff;
-    line-height: 40px;
+    line-height: 50px;
 }
 
 .footer-linksDemo {
@@ -558,11 +558,12 @@ footer ul li a {
 }
 
 .footer-socialMedia {
-    width: 50px;
+    width: 60px;
     float: right;
 }
 
 .footer-socialMedia img {
     width: 100%;
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
