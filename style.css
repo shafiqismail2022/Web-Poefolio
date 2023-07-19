@@ -460,10 +460,77 @@ header nav ul li a {
     /* font-weight: 900; */
     font-size: 16px;
     color: #111;
+    text-transform: uppercase;
 }
 
 header .header-case {
     display: none;
+}
+
+@media only screen and (min-width:1000px) {
+    header .header-name {
+
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 0 20px 0 40px;
+        border-right: 2px solid #111;
+        float: left;
+    }
+
+    header nav ul {
+        margin: 20px 0 0 20px;
+        float: left;
+    }
+
+    header nav ul li a {
+
+        line-height: 60px;
+    }
+
+    header .header-case {
+        display: block;
+        font-family: catamaran;
+        font-weight: 900;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        line-height: 38px;
+        border: 1px solid #111;
+        float: right;
+        padding: 0 20px;
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+
+    .wrapper02 {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .banner-header {
+        height: 450px;
+
+    }
+
+    .banner-header h2 {
+        display: block;
+        width: 560px;
+        margin: 0 auto;
+    }
+
+    .index-links div {
+        margin: 16px 16px 0;
+        height: 230px;
+        background-color: #f2f2f2;
+    }
+
+    .index-topic-square {
+        width: calc(25%-20px) !important;
+    }
+
+    .inde-topic-rectangle {}
+
 }
 
 .banner-header {
